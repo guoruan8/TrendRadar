@@ -44,10 +44,10 @@ report:
 notification:
   enabled: true
   channels:
-    webhook:
-      enabled: true
-      url: "https://ntfy.sh/asa-trend-guoruan8"
-      method: "POST"
+    ntfy:
+      server_url: "https://ntfy.sh"
+      topic: "asa-trend-guoruan8"
+      token: ""
 
 ai:
   model: "deepseek/deepseek-chat"
